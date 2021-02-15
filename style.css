@@ -92,5 +92,41 @@ footer{
     top: 5%;
     font-family: 'Dancing Script', cursive;
     font-size: 200%;
-    
+}
+@media only screen and (max-width: 1289px) {
+    body{
+        background: rgb(34,191,195);
+background: linear-gradient(0deg, rgba(34,191,195,1) 0%, rgba(79,45,253,1) 100%);
+    }
+    .time-select{
+        height: auto;
+        width: auto;
+        top: 50px;
+        left: 5px;
+        position: relative;
+        display: flex;
+        
+    }
+    .time-select button{
+        width: auto;
+        margin: 15px;
+        font-size: 15px;
+        padding: 5px;
+        letter-spacing: 2;
+    }
+    .player-container{
+        top: 50px ;
+        left: 55px;
+        height: 150px;
+        width: 150px;
+    }
+    .play{
+        height: 20px;
+    }
+    .time-display{
+        font-size: 20px;
+    }
+    footer{
+        font-size: 25px;
+    }
 }
